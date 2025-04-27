@@ -59,6 +59,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             groupBox1.Controls.Add(btnLimpiar);
             groupBox1.Controls.Add(btnEliminar);
             groupBox1.Controls.Add(btnActualizar);
@@ -127,7 +128,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(414, 33);
+            label6.Location = new Point(401, 39);
             label6.Name = "label6";
             label6.Size = new Size(76, 15);
             label6.TabIndex = 4;
@@ -135,9 +136,10 @@
             // 
             // dtpFechaConsulta
             // 
+            dtpFechaConsulta.Anchor = AnchorStyles.Left;
             dtpFechaConsulta.Location = new Point(152, 175);
             dtpFechaConsulta.Name = "dtpFechaConsulta";
-            dtpFechaConsulta.Size = new Size(200, 23);
+            dtpFechaConsulta.Size = new Size(224, 23);
             dtpFechaConsulta.TabIndex = 6;
             // 
             // txtEdad
@@ -171,10 +173,11 @@
             // 
             // txtObservación
             // 
-            txtObservación.Location = new Point(414, 51);
+            txtObservación.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtObservación.Location = new Point(401, 57);
             txtObservación.Multiline = true;
             txtObservación.Name = "txtObservación";
-            txtObservación.Size = new Size(383, 127);
+            txtObservación.Size = new Size(461, 141);
             txtObservación.TabIndex = 7;
             // 
             // txtPrimerNombre
@@ -186,6 +189,7 @@
             // 
             // label7
             // 
+            label7.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label7.AutoSize = true;
             label7.Location = new Point(26, 152);
             label7.Name = "label7";
@@ -195,6 +199,7 @@
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label5.AutoSize = true;
             label5.Location = new Point(24, 181);
             label5.Name = "label5";
@@ -204,6 +209,7 @@
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label4.AutoSize = true;
             label4.Location = new Point(24, 121);
             label4.Name = "label4";
@@ -213,6 +219,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Location = new Point(24, 92);
             label3.Name = "label3";
@@ -222,6 +229,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.Location = new Point(24, 60);
             label2.Name = "label2";
@@ -231,6 +239,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Location = new Point(24, 33);
             label1.Name = "label1";
@@ -244,6 +253,7 @@
             dgvPacientes.AllowUserToDeleteRows = false;
             dgvPacientes.AllowUserToResizeColumns = false;
             dgvPacientes.AllowUserToResizeRows = false;
+            dgvPacientes.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             dgvPacientes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvPacientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvPacientes.Location = new Point(12, 347);
@@ -257,6 +267,7 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox2.ErrorImage = null;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.InitialImage = null;
@@ -269,6 +280,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox1.ErrorImage = null;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.InitialImage = null;

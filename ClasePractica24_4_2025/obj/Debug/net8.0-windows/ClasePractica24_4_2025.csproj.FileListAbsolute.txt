@@ -141,3 +141,4 @@ C:\Users\Usuario\Documents\UNI\2025\Programación II\ClasePractica24_4_2025\Clas
 C:\Users\Usuario\Documents\UNI\2025\Programación II\ClasePractica24_4_2025\ClasePractica24_4_2025\obj\Debug\net8.0-windows\ClasePractica24_4_2025.pdb
 C:\Users\Usuario\Documents\UNI\2025\Programación II\ClasePractica24_4_2025\ClasePractica24_4_2025\obj\Debug\net8.0-windows\ClasePractica24_4_2025.genruntimeconfig.cache
 C:\Users\Usuario\Documents\UNI\2025\Programación II\ClasePractica24_4_2025\ClasePractica24_4_2025\obj\Debug\net8.0-windows\ref\ClasePractica24_4_2025.dll
+C:\Users\Usuario\Documents\UNI\2025\Programación II\ClasePractica24_4_2025\ClasePractica24_4_2025\obj\Debug\net8.0-windows\ClasePractica24_4_2025.sourcelink.json
